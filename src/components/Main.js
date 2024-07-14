@@ -1,16 +1,27 @@
+import profile from "../images/profile.png"
+import { FontAwesomeIcon  } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Main() {
     return (
         <div className="main">
-            <img alt="Profile picture" />
+            <img src={profile} alt="Profile" />
             <div className="Title">
                 <h1>Hemant Antony</h1>
                 <h2>Frontend Developer</h2>
                 <h3>hemantantony.com</h3>
             </div>
             <div className="main-buttons">
-                <button>Email</button>
-                <button>LinkedIn</button>
+                {/* <button><i class="fa-solid fa-envelope"></i>Email</button> */}
+                <a href="https://www.gmail.com" className="email-button">
+                    <FontAwesomeIcon icon={ faEnvelope } className="button-icon"/>
+                    Email
+                </a>
+                <a href="https://www.linkedin.com/in/hemant-antony" className="linkedin-button">
+                    <FontAwesomeIcon icon={ faLinkedin } className="button-icon"/>
+                    LinkedIn
+                </a>
             </div>
             <div className="description">
                 <h2>About</h2>
