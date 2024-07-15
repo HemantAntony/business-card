@@ -13,7 +13,6 @@ export default function Main() {
                 <h3>hemantantony.com</h3>
             </div>
             <div className="main-buttons">
-                {/* <button><i class="fa-solid fa-envelope"></i>Email</button> */}
                 <a href="https://www.gmail.com" className="email-button">
                     <FontAwesomeIcon icon={ faEnvelope } className="button-icon"/>
                     Email
