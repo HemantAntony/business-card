@@ -25,9 +25,8 @@ export default function Main() {
             <div className="description">
                 <h2>About</h2>
                 <p>
-                    Hello, I'm Hemant Antony. I've been programming since my childhood.
-                    I'm fueled by my hunger to solve problems in the world and to make
-                    the world a better place for everyone.
+                    Hello, I'm Hemant Antony. I'm fueled by my hunger to solve problems in the world
+                    and to make the world a better place for everyone.
                 </p>
                 <h2>Interests</h2>
                 <p>

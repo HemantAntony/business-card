@@ -8,14 +8,17 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Noto Sans, sans-serif;
+    background-color: #1f2125ff;
 }
 
 .App {
-    width: 32vh;
+    width: 33vh;
     height: 80vh;
     background-color: #181a1eff;
     border-radius: 10px;
     margin: 0;
+    position: relative;
+    box-shadow: 0px 0px 25px #161616;
 }
 
 img {
@@ -77,8 +80,8 @@ img {
 }
 
 .description {
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 21px;
+    margin-right: 21px;
 }
 
 .description > h2 {
@@ -91,4 +94,26 @@ img {
     margin-top: 2px;
     color: rgb(235, 235, 235);
     font-size: 14px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 65px;
+    background-color: #151517ff;
+    display: flex;
+    justify-content: center;
+}
+
+.footer > a {
+    margin: auto 10px;
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+
+}
+
+.footer-buttons {
+    width: 35px;
+    height: 35px;
 }
